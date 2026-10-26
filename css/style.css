@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+font-family: "Poppins", sans-serif;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+  font-size: 100%;
+  position: relative;
+  background: linear-gradient(#000001, #262626, #000001);
+  
+}
+
+.cabecalho{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px;
+   background: linear-gradient(#33333f, #15151a, #000000);
+  background-attachment: fixed;
+}
+
+.logo{
+  display: flex;
+  height: 92px;
+  object-fit:cover;
+  
+}
+
+.menu{
+display:flex;
+  gap: 20px;
+  justify-content: flex-end;
+  margin-left: auto;
+}
+
+.cabecalho-menu-item{
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.conteudo{
+  margin-bottom: 48px;
+  border-top: 0.4px solid #33333f;
+}
+
+.conteudo-principal{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.conteudo-principal-escrito{
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo{
+font-family: "Lobster", sans-serif;
+font-weight: 400;
+font-size: 64px;
+color: #ffffff;
+}
+
+.conteudo-principal-escrito-subtitulo{
+  font-weight: 400;
+  font-size: 24px;
+  color: whitesmoke;
+}
+
+.conteudo-principal-botao{
+  background-color: #33333f;
+  width: 180px;
+  height: 60px;
+  border: none;
+  box-shadow: 4px 5px 4px rgba(0,0,0,0.25);
+  border-radius: 20px;
+  font-weight: 400;
+  font-size: 24px; 
+  color: #ffffff;
+}
+
+.conteudo-principal-botao:hover{
+  background-color: #ffffff;
+  color: black;
+}
+
+.Heroimg{
+  margin-top: 20px;
+  height: 600px; 
+  border-radius: 230px;
+  object-fit: cover;
+}
+
+.Footerlogo{
+height: 165px;
+}
+
+.conteudo-secundario{
+display: flex;  
+flex-direction: column;
+align-items: center;
+gap: 24px;
+margin-top: 48px;
+}
+
+.conteudo-secundario-titulo{
+border-top: 0.4px solid #ffffff;
+padding-top: 48px;
+font-weight: 400;
+font-size: 24px;
+color: #ffffff;
+margin-bottom: 16px;
+}
+
+.conteudo-secundario-paragrafo{
+font-weight: 300;
+font-size: 18px;
+color: whitesmoke;
+
+}
+
+.rodape{
+padding: 32px;
+border-top: 0.4px solid #9c9c9c;
+ background-color: #33333f;
+color: white;
+display: flex;
+justify-content: center;
+font-size: 64px;
+}
+
+.Footerlogo{
+height: 135px;
+display: block;
+margin: 0 auto;
+}
